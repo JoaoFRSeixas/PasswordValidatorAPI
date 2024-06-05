@@ -21,7 +21,7 @@ endpoint: /api/v1/validate_password
 body: {"password": "SUA_SENHA_AQUI"}
 ```
 
-## Como rodar o app localmente?
+## Como executar o app localmente?
 
 1. Instale o Ruby, versão 3.1.2 -> https://www.ruby-lang.org/en/documentation/installation/
 2. Clone este repositório -> `gh repo clone JoaoFRSeixas/challenge-PasswordValidatorApp`;
