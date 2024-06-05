@@ -10,6 +10,10 @@ Esse aplicativo consiste em uma API que valida se uma senha é válida de acordo
   - Considere como especial os seguintes caracteres: !@#$%^&*()-+;
 - Não possuir caracteres repetidos dentro do conjunto;
 
+O endpoint para isso, tanto localmente quanto na web é:
+`/api/v1/validate_password`
+O método de requisição é `POST`
+
 ## Como utilizar a API via web?
 A aplicação está hospedada no Google Cloud, através do APP Engine. Dessa forma, é possivel testar em produção utilizando a seguinte URL, através de uma requisição **POST**:
 ```
