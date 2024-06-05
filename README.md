@@ -41,11 +41,13 @@ curl --location 'http://127.0.0.1:3000/api/v1/validate_password' \
 --data '{  "password":   "SUA_SENHA_AQUI" }'
 ```
 
-## Testes unitarios:
-Essa aplicação utiliza a gem Rspec para os testes unitários. Para rodar todos de uma vez, dentro do diretório, rode o seguinte comando:
+## Testes unitários:
+Essa aplicação utiliza a gem Rspec para os testes unitários. Para rodar todos de uma vez, dentro do diretório, execute o seguinte comando:
+
   `rspec`
 
-Para testar apenas o fluxo de validação da senha, rode o comando:
+Para testar apenas o fluxo de validação da senha, execute o comando:
+
 `rspec spec/requests/password_validations_request_spec.rb`
 
 ## Decisões importantes:
