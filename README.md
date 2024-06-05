@@ -33,7 +33,8 @@ body: {"password": "SUA_SENHA_AQUI"}
 ## Como executar o app localmente?
 
 1. Instale o Ruby, versão 3.1.2 -> https://www.ruby-lang.org/en/documentation/installation/
-2. Clone este repositório -> `gh repo clone JoaoFRSeixas/challenge-PasswordValidatorApp`;
+  a. Se você está usando o Ubuntu, é uma ótima opção utilizar o rvm para essa instalação-> https://github.com/rvm/ubuntu_rvm
+2. Clone este repositório -> `git clone https://github.com/JoaoFRSeixas/challenge-PasswordValidatorApp.git`;
 3. Dentro do repositório, execute o seguinte comando:
   `bundle install`
 4. Após a finalização da instalação das gems e dependencias, execute o seguinte comando:
