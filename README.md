@@ -24,10 +24,10 @@ body: {"password": "SUA_SENHA_AQUI"}
 ## Como rodar o app localmente?
 
 1. Instale o Ruby, versão 3.1.2 -> https://www.ruby-lang.org/en/documentation/installation/
-2. Clone este repositório;
-3. Dentro do repositório, rode o seguinte comando:
-  bundle install
-4. Após a finalização da instalação das gems e dependencias, rode o seguinte comando:
+2. Clone este repositório -> `gh repo clone JoaoFRSeixas/challenge-PasswordValidatorApp`;
+3. Dentro do repositório, execute o seguinte comando:
+  `bundle install`
+4. Após a finalização da instalação das gems e dependencias, execute o seguinte comando:
   `bundle exec rails server`
 
 Pronto! Se tudo deu certo, o app já está rodando em seu ambiente local!
@@ -46,13 +46,13 @@ Para testar apenas o fluxo de validação da senha, rode o comando:
 
 ## Decisões importantes:
 ### - Por que usar Ruby?
-  Além de ter sido minha stack principal por bastante tempo, a sintaxe é bem parecida com JS, e o framework de Rails facilita a criação de controllers para uma API robusta e simples de ser entendida.
+    Além de ter sido minha stack principal por bastante tempo, a sintaxe é bem parecida com JS, e o framework de Rails facilita a criação de controllers para uma API robusta e simples de ser entendida.
 
 ### - Por que utilizar a gem RSpec para testes, ao inves do padrão de Ruby?
     A sintaxe dos testes no RSpec é bem parecida com Jest, utilizar essa sintaxe facilita a compreensão ao realizar o teste antes de criar o serviço, endpoint e classe, O TDD!
 
 ### - Como a validação da senha funciona?
-    Através de um service que recebe uma string, e realiza validações utilizando expressões regulares (REGEX) de acordo com as regras definidas.
+    Através de um service que recebe uma string e realiza validações utilizando expressões regulares (REGEX) de acordo com as regras definidas.
   
 ### - Qual melhoria seria aplicavel?
     Utilizar um model "Senha" que valida a string antes de armazená-la, e retorna qual/quais condições não estão sendo atendidas, caso seja necessário.
