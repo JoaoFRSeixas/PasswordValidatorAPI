@@ -65,8 +65,8 @@ Para testar apenas o fluxo de validação da senha, execute o comando:
 ### - Como a validação da senha funciona?
     Através de um service que recebe uma string e realiza validações utilizando expressões regulares (REGEX) de acordo com as regras definidas.
   
-### - Qual melhoria seria aplicavel?
-    Utilizar um model "Senha" que valida a string antes de armazená-la, e retorna qual/quais condições não estão sendo atendidas, caso seja necessário.
+### - Qual melhoria seria aplicável?
+    Utilizar um model "Senha" que valida a string usando métodos nativos de Ruby e então armazená-la criptografada, além de retornar dentro do objeto de resposta qual/quais condições não estão sendo atendidas, caso seja necessário.
 
 
 
