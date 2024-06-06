@@ -23,7 +23,7 @@ Retorno esperado:
 A aplicação está hospedada no Google Cloud, através do APP Engine. Dessa forma, é possivel testar em produção utilizando a seguinte URL, através de uma requisição **POST**:
 ```
 
-host: https://reflected-radio-425418-a0.rj.r.appspot.com
+host: https://acquired-subset-425617-t3.rj.r.appspot.com
 
 endpoint: /api/v1/validate_password
 
