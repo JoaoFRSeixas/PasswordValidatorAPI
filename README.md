@@ -19,17 +19,6 @@ Retorno esperado:
     "valid": false/true
 }`
 
-## Como utilizar a API via web?
-A aplicação está hospedada no Google Cloud, através do APP Engine. Dessa forma, é possivel testar em produção utilizando a seguinte URL, através de uma requisição **POST**:
-```
-
-host: https://acquired-subset-425617-t3.rj.r.appspot.com
-
-endpoint: /api/v1/validate_password
-
-body: {"password": "SUA_SENHA_AQUI"}
-```
-
 ## Como executar o app localmente?
 
 1. Instale o Ruby, versão 3.1.2 -> https://www.ruby-lang.org/en/documentation/installation/
