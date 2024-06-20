@@ -25,7 +25,7 @@ Retorno esperado:
 
         Se você está usando o Ubuntu, é uma ótima opção utilizar o rvm para essa instalação-> https://github.com/rvm/ubuntu_rvm
 
-2. Clone este repositório -> `git clone [https://github.com/JoaoFRSeixas/challenge-PasswordValidatorApp.git](https://github.com/JoaoFRSeixas/PasswordValidatorAPI.git)`;
+2. Clone este repositório -> `git clone https://github.com/JoaoFRSeixas/challenge-PasswordValidatorApp.git`;
 3. Dentro do repositório, execute o seguinte comando:
   `bundle install`
 4. Após a finalização da instalação das gems e dependencias, execute o seguinte comando:
